@@ -1,0 +1,54 @@
+body {
+  font-family: 'EB Garamond', serif;
+  background: #EFEFEF;
+}
+
+header {
+  padding-top: 10px;
+}
+header img {
+  width: 200px;
+  margin: 0 auto;
+}
+header h1 {
+  font-weight: bold;
+}
+
+.panel {
+  padding: 10px;
+}
+.panel p {
+  font-size: 18px;
+}
+
+.intro {
+  text-align: center;
+  font-style: italic;
+  font-size: 23px;
+  font-weight: bold;
+}
+.intro:before {
+  content: open-quote;
+  font-size: 30px;
+  color: grey;
+}
+.intro:after {
+  content: close-quote;
+  font-size: 30px;
+  color: grey;
+}
+
+.contact a {
+  display: block;
+  font: serif;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  color: #4CB575;
+  font-size: 20px;
+}
+.contact a:hover {
+  color: #3D8E5A;
+}
+.contact span {
+  margin-right: 5px;
+}

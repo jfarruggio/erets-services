@@ -1,0 +1,62 @@
+body{
+	font-family: 'EB Garamond', serif;
+	background: #EFEFEF;
+}
+
+header {
+	padding-top: 10px;
+	img {
+		width:200px;
+		margin:0 auto;
+	}
+	h1 {
+		font-weight: bold;
+	}
+}
+
+.panel {
+	padding:10px;
+
+	p {
+		font-size: 18px;
+	}
+	
+}
+
+.intro {
+	text-align:center;
+	font-style:italic;	
+	font-size:23px;
+	font-weight:bold;
+
+	&:before{
+		content: open-quote;
+		font-size: 30px;
+		color: grey;
+	}
+
+	&:after{
+		content: close-quote;
+		font-size: 30px;
+		color: grey;
+	}
+}
+
+.contact {
+	a {
+		display: block;
+		font:serif;
+		margin-bottom: 5px;
+		margin-left: 5px;
+		color:#4CB575;
+		font-size: 20px;
+
+		&:hover {
+			color:#3D8E5A;
+		}
+	}
+
+	span {
+		margin-right: 5px;
+	}
+}
