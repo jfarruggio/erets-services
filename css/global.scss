@@ -1,6 +1,6 @@
 body{
 	font-family: 'EB Garamond', serif;
-	background: #EFEFEF;
+	background: rgb(245,245,245);
 }
 
 header {
@@ -11,6 +11,8 @@ header {
 	}
 	h1 {
 		font-weight: bold;
+		font-family: 'EB Garamond', serif;
+
 	}
 }
 
@@ -63,5 +65,11 @@ header {
 
 	span {
 		margin-right: 5px;
+	}
+}
+
+.services {
+	img.img-thumbnail {
+		max-width: 150px;
 	}
 }
