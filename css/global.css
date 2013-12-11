@@ -1,6 +1,6 @@
 body {
   font-family: 'EB Garamond', serif;
-  background: #EFEFEF;
+  background: whitesmoke;
 }
 
 header {
@@ -12,6 +12,7 @@ header img {
 }
 header h1 {
   font-weight: bold;
+  font-family: 'EB Garamond', serif;
 }
 
 .panel {
@@ -55,4 +56,8 @@ header h1 {
 }
 .contact span {
   margin-right: 5px;
+}
+
+.services img.img-thumbnail {
+  max-width: 150px;
 }
