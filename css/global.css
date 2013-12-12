@@ -146,3 +146,40 @@ div.screen {
     max-width: 300px;
   }
 }
+@media screen and (max-width: 730px) {
+  .discount-message {
+    margin-left: -300px;
+    width: 600px;
+  }
+}
+@media screen and (max-width: 730px) {
+  .discount-message {
+    margin-left: -250px;
+    width: 500px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .discount-message {
+    margin-left: -225px;
+    width: 450px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .discount-message {
+    margin-left: -200px;
+    width: 400px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .discount-message {
+    padding-top: 20px;
+    margin-left: -175px;
+    width: 350px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .discount-message {
+    margin-left: -155px;
+    width: 310px;
+  }
+}
