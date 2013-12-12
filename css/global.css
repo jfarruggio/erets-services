@@ -1,6 +1,6 @@
 body {
   font-family: 'EB Garamond', serif;
-  background: #FAFAFA;
+  background: #F7F7F7;
 }
 
 h3 {
@@ -23,6 +23,9 @@ header h1 {
   margin-bottom: 0px;
 }
 
+.panel {
+  border-top: 4px solid #4CB575;
+}
 .panel h2, .panel h3 {
   margin-top: 3px;
   margin-bottom: 10px;
@@ -45,7 +48,7 @@ header h1 {
 }
 
 .contact a {
-  display: block;
+  display: inline-block;
   font: serif;
   margin-bottom: 5px;
   margin-left: 5px;
@@ -64,6 +67,57 @@ header h1 {
 }
 .services h3 {
   text-shadow: 1px 1px 0px #FFF;
+}
+
+.discount {
+  margin-top: 30px;
+}
+
+.screen {
+  display: none;
+}
+
+.discount-message {
+  top: -200px;
+  position: fixed;
+  z-index: 1000;
+  left: 50%;
+  margin-left: -350px;
+  background: white;
+  width: 700px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+div.screen {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.showModal .screen {
+  display: block;
+}
+
+.showModal .discount-message {
+  top: 300px;
+  transition: top 300ms ease;
+}
+
+.close-it {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 30px;
+  color: grey;
+  cursor: pointer;
+}
+.close-it:hover {
+  color: #EC4824;
 }
 
 @media screen and (min-width: 992px) {

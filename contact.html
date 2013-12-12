@@ -55,10 +55,12 @@
                       <img class="img-thumbnail" src="images/family.jpg">
                   </div>
                   <div class="col-sm-8">
-                      <p>My name is Denny and I run this company with my wife and our son, (he's in charge of corporate culture :). Give me a call if we can help with your property needs.</p>  
+                      <p>My name is Denny and I run this company with my wife and our son, (he's in charge of corporate culture). Let us know how we can help or if there are any questions we can answer.</p> 
                       <div class="contact">
                           <a href="tel:262358-6378"><span class="glyphicon glyphicon-phone"></span> (262) 358-6378</a>
+                          <br>
                           <a href="mailto:denny@eretservices.com"><span class="glyphicon glyphicon-envelope"></span> Denny@eretservices.com</a>
+                          <br>
                           <a href=""><span class="glyphicon glyphicon-globe"></span> 1114 56th st. Kenosha, WI 53143</a>
                       </div>      
                   </div>
@@ -94,23 +96,58 @@
 
     
 
+    <!-- modal -->
+    <div class="screen">
+    </div>
+      <div class="discount-message">
+        <h3>Earn discounted rates through our 12 month program.</h3>
+        <p>Join our 12 month program to enjoy our services all year long with with the convenience of a simple discounted monthly payment plan.</p>
+        <br>
+        <button onclick="location.href='contact.html'" class="btn btn-success">Free Quote</button>
+        <span class="close-it glyphicon glyphicon-remove-circle"></span>
+        
+      </div> 
+
     <div id="footer">
       <div class="container">
-        <p class="text-muted credit">Erets Services - For All Of Your Property Needs</p>
-        <div class="contact">
-          <a href="tel:262358-6378"><span class="glyphicon glyphicon-phone"></span> (262) 358-6378</a>
-          <a href="mailto:denny@eretservices.com"><span class="glyphicon glyphicon-envelope"></span> Denny@eretservices.com</a>
-          <a href=""><span class="glyphicon glyphicon-globe"></span> 1114 56th st. Kenosha, WI 53143</a>
+        <div class="row">
+            <div class="col-xs-12 col-sm-8">
+              <p class="text-muted credit">Erets Services - For All Of Your Property Needs</p>
+              <div class="contact">
+                <a href="tel:262358-6378"><span class="glyphicon glyphicon-phone"></span> (262) 358-6378</a>
+                <br>
+                <a href="mailto:denny@eretservices.com"><span class="glyphicon glyphicon-envelope"></span> Denny@eretservices.com</a>
+                <br>
+                <a href=""><span class="glyphicon glyphicon-globe"></span> 1114 56th st. Kenosha, WI 53143</a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+             
+              <!-- modal trigger-->             
+              <button class="btn btn-danger discount">Interested in a discounted rate?</button>
+            </div>
         </div>
-      </div>
+      </div> 
     </div>
 
+
+    
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+      $('.discount').click(function() {
+        $('body').addClass('showModal');
+      });
+
+      $('.close-it').click(function() {
+       $('body').removeClass('showModal');
+      });
+    </script>
 
   </body>
 </html>
