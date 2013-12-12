@@ -163,6 +163,11 @@ div.screen {
     margin-left: -225px;
     width: 450px;
   }
+
+  .showModal .discount-message {
+    top: 100px;
+    transition: top 300ms ease;
+  }
 }
 @media screen and (max-width: 470px) {
   .discount-message {
