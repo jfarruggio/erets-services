@@ -160,7 +160,7 @@ div.screen {
 }
 @media screen and (max-width: 520px) {
   .discount-message {
-    margin-left: -225px;
+    margin-left: -250px;
     width: 450px;
   }
 
