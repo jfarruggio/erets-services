@@ -238,3 +238,11 @@ div.screen {
 	  transition: top 300ms ease;
 	}
 }
+
+@media screen and (max-height: 460px) {
+
+	.showModal .discount-message {
+	   top: 50px;
+	  transition: top 300ms ease;
+	}
+}
