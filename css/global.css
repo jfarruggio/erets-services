@@ -1,10 +1,16 @@
 body {
   font-family: 'EB Garamond', serif;
-  background: whitesmoke;
+  background: #FAFAFA;
+}
+
+h3 {
+  font-size: 25px;
 }
 
 header {
-  margin-top: 60px;
+  margin-top: 45px;
+  padding-top: 5px;
+  margin-bottom: 15px;
 }
 header img {
   width: 200px;
@@ -13,11 +19,10 @@ header img {
 header h1 {
   font-weight: bold;
   font-family: 'EB Garamond', serif;
+  text-shadow: 1px 1px 0px #FFF;
+  margin-bottom: 0px;
 }
 
-.panel {
-  padding: 10px;
-}
 .panel h2, .panel h3 {
   margin-top: 3px;
   margin-bottom: 10px;
@@ -30,17 +35,13 @@ header h1 {
   text-align: center;
   font-style: italic;
   font-size: 23px;
-  font-weight: bold;
 }
-.intro:before {
-  content: open-quote;
-  font-size: 30px;
-  color: grey;
+
+.about h3 {
+  margin-bottom: 5px;
 }
-.intro:after {
-  content: close-quote;
-  font-size: 30px;
-  color: grey;
+.about p {
+  margin-bottom: 10px;
 }
 
 .contact a {
@@ -60,4 +61,34 @@ header h1 {
 
 .services img.img-thumbnail {
   max-width: 150px;
+}
+.services h3 {
+  text-shadow: 1px 1px 0px #FFF;
+}
+
+@media screen and (min-width: 992px) {
+  .services .row {
+    margin-bottom: 30px;
+  }
+  .services ul {
+    margin-left: 15px;
+    padding-left: 0px;
+  }
+
+  .container {
+    max-width: 930px;
+  }
+
+  .panel.column {
+    min-height: 370px;
+  }
+
+  .buttun-group {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  .services p {
+    max-width: 300px;
+  }
 }
