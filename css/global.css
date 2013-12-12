@@ -166,7 +166,7 @@ div.screen {
 
   .showModal .discount-message {
     top: -300px;
-    top: 50px;
+    top: 80px;
     transition: top 300ms ease;
   }
 }
