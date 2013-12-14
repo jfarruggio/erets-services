@@ -114,13 +114,9 @@
       <br><br>
 
       </div>
-      
-
-
-
-
+      <!-- end contianer -->
     </div>
-
+    <!-- end wrap -->
     
 
     <!-- modal -->
@@ -172,6 +168,10 @@
       });
 
       $('.close-it').click(function() {
+       $('body').removeClass('showModal');
+      });
+
+      $('.screen').click(function() {
        $('body').removeClass('showModal');
       });
     </script>

@@ -9,7 +9,7 @@ h3 {
 }
 
 header {
-	margin-top: 45px;
+	margin-top: 60px;
 	padding-top:5px;
 	margin-bottom:15px;
 	
@@ -88,13 +88,20 @@ header {
 	margin-top:30px;
 }
 
+.discount-link {
+	font-size:18px;
+
+	&:hover{
+	text-decoration:none;
+	}
+}
 
 .screen {
   display: none;
 }
 
 .discount-message {
-  top: -200px;
+  top: -300px;
   position: fixed;
   z-index: 1000;
   left: 50%;
@@ -181,26 +188,26 @@ div.screen {
 @media screen and (max-width: 730px) {
 	.discount-message {
 	  margin-left: -250px;
-	  width: 500px
+	  width: 500px;
 	}
 }
 
 @media screen and (max-width: 520px) {
 	.discount-message {
-	  margin-left: -270px;
-	  width: 450px
+	  margin-left: -225px;
+	  width: 450px;
 	}
 
 	.showModal .discount-message {
 	   top: 300px;
-	  transition: top 300ms ease;
 	}
 }
 
 @media screen and (max-width: 470px) {
 	.discount-message {
-	  margin-left: -200px;
-	  width: 400px
+		padding-top:20px;
+		margin-left: -200px;
+		width: 400px;
 	}
 }
 
@@ -208,34 +215,32 @@ div.screen {
 	.discount-message {
 		padding-top:20px;
 		margin-left: -175px;
-		width: 350px
+		width: 350px;
 	}
 }
 
 @media screen and (max-width: 360px) {
 	.discount-message {
-	  margin-left: -155px;
-	  width: 310px
+		margin-left: -155px;
+		width: 310px;
 	}
 }
 
 @media screen and (max-width: 320px) {
 	.discount-message {
-	  margin-left: -140px;
-	  width: 280px
+		margin-left: -140px;
+	  	width: 280px;
 	}
 
 	.showModal .discount-message {
 	   top: 200px;
-	  transition: top 300ms ease;
 	}
 }
 
 @media screen and (max-height: 570px) {
 
 	.showModal .discount-message {
-	   top: 100px;
-	  transition: top 300ms ease;
+	   top: 100px;	
 	}
 }
 
@@ -243,6 +248,5 @@ div.screen {
 
 	.showModal .discount-message {
 	   top: 50px;
-	  transition: top 300ms ease;
 	}
 }
